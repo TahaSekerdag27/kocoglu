@@ -38,13 +38,17 @@ nav {
     margin: 0 auto;
     padding: 0 35px;
     box-sizing: border-box;
-    height: 100px; /* Sabit yükseklik vererek header'ı kısaltabilirsin */
+    height: 100px;
+    position: relative;
 }
 
 .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
-    width: minmax(300px, 1fr); /* Gridle aynı gnislik */
+    justify-content: center;
 }
 
 .logo-img {
@@ -72,7 +76,7 @@ nav {
 .nav-links {
     display: flex;
     gap: 3rem;
-    margin: 0;
+    margin-left: auto;
     padding: 0;
     justify-content: flex-end;
     width: auto;
