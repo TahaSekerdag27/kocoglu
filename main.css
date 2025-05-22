@@ -52,8 +52,8 @@ nav {
 }
 
 .logo-img {
-    width: 180px;      /* Genişliği de biraz küçültebilirsin */
-    height: 40px;      /* Yüksekliği azaltıldı */
+    width: 180px;      
+    height: 40px;     
     object-fit: contain;
     display: block;
     margin: 0 auto;
@@ -150,7 +150,7 @@ nav {
     overflow: hidden;
 }
 
-/* Dekoratif arka plan deseni */
+
 .menu-section::before {
     display: none;
 }
@@ -178,7 +178,6 @@ nav {
     border-radius: 2px;
 }
 
-/* Kategori butonları için güncellenmiş stiller */
 .menu-categories {
     position: relative;
     z-index: 2;
